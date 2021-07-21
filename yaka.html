@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baluubu</title>
+</head>
+<body>
+    <h1>HOUSE LIGHTING</h1>
+    <div class="container">
+        <div id="app">
+            <div class="lighton" v-if = "isLighton">
+                <img src="images/pic1.jfif" alt="lightbulb">
+            </div>
+
+            <div class="lightoff" v-else-if ="isLightoff">
+                <img src="images/pic11.jfif" alt="darkness">
+            </div>
+
+            <br> <br>
+            <button v-on:click="tap">SWITCH</button>
+    </div>
+    
+    
+<script src="vue.js"></script>
+<script src="yaka.html"></script>
+</body>
+</html>
